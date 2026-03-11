@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.page-header h2 {
+  margin: 0;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card .ant-statistic-title {
+  font-size: 14px;
+  color: #666;
+}
+
+.status-tag {
+  font-size: 12px;
+}
+
+.ant-table-wrapper {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.filter-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-row .ant-select,
+.filter-row .ant-input {
+  min-width: 160px;
+}
+
+.detail-section {
+  margin-bottom: 24px;
+}
+
+.detail-section h4 {
+  color: #1677ff;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.app-logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 0.5px;
+}
+
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1677ff 0%, #0050b3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.login-logo {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.login-logo h1 {
+  color: #1677ff;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.login-logo p {
+  color: #888;
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+
+.demo-hint {
+  background: #f6f8ff;
+  border: 1px solid #d6e4ff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+.demo-hint strong {
+  color: #1677ff;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.demo-hint p {
+  margin: 2px 0;
+  color: #555;
+}
+
+.ant-layout-sider {
+  box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+}
+
+.ant-layout-header {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.process-steps {
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}

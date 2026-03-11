@@ -1,0 +1,26 @@
+# Dependencies
+**/node_modules/
+
+# Build outputs
+frontend/dist/
+
+# Database files
+backend/hirecrm.db
+backend/hirecrm.db-shm
+backend/hirecrm.db-wal
+
+# Environment variables
+**/.env
+!**/.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
